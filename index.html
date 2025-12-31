@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blühende Akademie</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Kanit&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/sunflower.png"
+      type="image/x-icon"
+    />
+    <meta name="theme-color" content="#896C6C" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <h1 class="title" id="titel">Blühende Akademie</h1>
+      <select id="sprache">
+        <option value="de">🇩🇪</option>
+        <option value="tr">🇹🇷</option>
+      </select>
+    </header>
+
+    <main>
+      <p class="bismillah">بسم الله الرحمن الرحيم</p>
+
+      <section class="image-row">
+        <p id="erstefrage">
+          Wann hat der erste Mensch gescprochen? Wann geschrieben?
+        </p>
+        <div>
+          <dialog id="bild1dialog">
+            <p id="bild1erklaerung">
+              Bir adam, bir hizmetkârına on altın verip "Mahsus bir kumaştan bir
+              kat elbise yaptır" emreder. İkincisine bin altın verir, bir pusula
+              içinde bazı şeyler yazılı o hizmetkârın cebine koyar, bir pazara
+              gönderir.
+            </p>
+            <button onclick="document.getElementById('bild1dialog').close()">
+              Close
+            </button>
+          </dialog>
+          <img
+            src="assets/a-man-his-two-servants.jpeg"
+            alt="Bild 1"
+            onclick="document.getElementById('bild1dialog').showModal()"
+          />
+
+          <dialog id="bild2dialog">
+            <p id="bild2erklaerung">
+              Evvelki hizmetkâr, on altınla âlâ kumaştan mükemmel bir elbise
+              alır. İkinci hizmetkâr, divanelik edip, evvelki hizmetkâra bakıp,
+              cebine konulan hesap pusulasını okumayarak, bir dükkâncıya bin
+              altın vererek bir kat elbise istedi. İnsafsız dükkâncı da kumaşın
+              en çürüğünden bir kat elbise verdi. O bedbaht hizmetkâr,
+              seyyidinin huzuruna geldi ve şiddetli bir tedip gördü ve dehşetli
+              bir azap çekti. İşte, ednâ bir şuuru olan anlar ki, ikinci
+              hizmetkâra verilen bin altın, bir kat elbise almak için değildir.
+              Belki mühim bir ticaret içindir.
+            </p>
+            <button onclick="document.getElementById('bild2dialog').close()">
+              Close
+            </button>
+          </dialog>
+          <img
+            src="assets/loyal-servant-junky-servant.png"
+            alt="Bild 2"
+            onclick="document.getElementById('bild2dialog').showModal()"
+          />
+        </div>
+      </section>
+
+      <section class="image-row">
+        <p id="zweitefrage">Ein Allah oder viele Götter?</p>
+        <div>
+          <dialog id="bild3dialog">
+            <p id="bild3erklaerung">
+              Bu hep beraber yaşadığımız ve medeniyet dediğimiz insan yaşamı
+              içinde hayır ve şer, iyi ve fena, temiz ve pis şeyler beraber
+              bulunur. Âkıl odur ki, "Duru ve saf olanı al, karışık ve bulanık olanı bırak" kaidesiyle amel
+              eder, selâmet-i kalble gider.
+            </p>
+            <button onclick="document.getElementById('bild3dialog').close()">
+              Close
+            </button>
+          </dialog>
+          <img
+            src="assets/single-celled-organisms-on-poop.jpeg"
+            alt="Bild 3"
+            onclick="document.getElementById('bild3dialog').showModal()"
+          />
+
+          <dialog id="bild4dialog">
+            <p id="bild4erklaerung">
+             Dışkının üstünde hayatı yaratan, yani oraya uygun canlıları var eden yaratıcı, jüpiterde oraya uygun, satürnde oraya uygun, dünyada oraya uygun canlıları yaratmaktadır diyemez miyiz? Hayat çoğaltılır, çünkü onda esma-i hüsna sürekli tecelli eder. Mesela sen evladının insanlar tarafından takdir edilen her davranışında gururlanırsın. Hatta sadece kendi beğendiğin davranışları için bile gurur duyarsın onunla. İşte bu nedenle hayat çoğaltılıyor. Allah esmasının tecelli ettiğini görmek irade buyuruyor, ayrıca biz de onu tefekkür edelim irade buyuruyor ve  heryerde o yerin kendine özgü sakinlerini, canlılarını yaratıyor.
+            </p>
+            <button onclick="document.getElementById('bild4dialog').close()">
+              Close
+            </button>
+          </dialog>
+          <img
+            src="assets/solar-system.png"
+            alt="Bild 4"
+            onclick="document.getElementById('bild4dialog').showModal()"
+          />
+        </div>
+      </section>
+
+      <section class="image-row">
+        <p id="drittefrage">
+          Warum haben Menschen das Bedürfnis, etwas für den Schöpfer zu tun?
+        </p>
+        <div>
+          <dialog id="bild5dialog">
+            <p id="bild5erklaerung">
+              "Seviyorum seni, ekmeği tuza banıp yer gibi." (Nazım Hikmet) ​
+              <br />
+              "Karşıdan karşıya geçer gibi sev beni; önce bana, sonra bana,
+              sonra yine bana bak." (Cemal Süreya) ​ <br />
+              "Sana gitme demeyeceğim / Üşüyorsun ceketimi al." (Özdemir Asaf)
+            </p>
+            <button onclick="document.getElementById('bild5dialog').close()">
+              Close
+            </button>
+          </dialog>
+
+          <img
+            src="assets/i-love-you-x.jpeg"
+            alt="Bild 5"
+            onclick="document.getElementById('bild5dialog').showModal()"
+          />
+
+          <dialog id="bild6dialog">
+            <p id="bild6erklaerung">
+              İşte insanın sevdiğini şiirsel, daha etkili ifadelerle söyleme isteği, arzusu bu şairlerin ortaya çıkmasına ve şiir yazmalarına sebep olmuş. Demek ki Kur'an ilk nazil olduğunda, şiir ve edebiyatın çok meşhur ve revaçta olduğu Mekke'de, şairlerin şiir yazmayı Kur'an indirilince bırakması, bazısının müslüman olmasını şimdi daha kolay anlayabiliriz. Bu aynı zamanda Kur'an'ın bu konudaki üstünlüğünü de anlamamıza yardımcı olur.
+            </p>
+            <button onclick="document.getElementById('bild6dialog').close()">
+              Close
+            </button>
+          </dialog>
+
+          <img
+            src="assets/kuranı-kerim.jpg"
+            alt="Bild 6"
+            onclick="document.getElementById('bild6dialog').showModal()"
+          />
+        </div>
+      </section>
+
+      <!-- YouTube Video Bildschirmbreit -->
+      <section class="video-section">
+        <img
+          src="assets/angry birds_green bird_angry birds_green bird.png"
+          alt="Angry Bird Icon"
+          class="angrybird-icon"
+        />
+        <iframe
+          src="https://www.youtube.com/embed/oGeCj61Y1SU?start=2589"
+          title="The proof of spontaneous emergence (Existence) | Evidences Of Tawheed (Oneness Of God) 2"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <!-- SimpleNote-Kanal kurzer Text -->
+      <section class="simplenote-section">
+        <p id="simplenote">
+          Nachdenken ist sehr nützlich! Lasst uns zusammen lesen den Text zum Nachdenken!
+        </p>
+        <a
+          href="./Text-zum-Nachdenken.txt"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="assets/angry birds_yellow bird_angry birds_yellow bird.png"
+            alt="Angry Bird Icon"
+            class="angrybird-icon"
+          />
+          <img src="./assets/redirect.jpg" alt="" width="30" height="30" />
+        </a>
+      </section>
+
+      <section class="text-section">
+        <p id="zumtranskript">
+          Lass uns eine kurze Abschnitt vom Transkript des Videos auf Deutsch
+          übersetzen!
+        </p>
+        <a href="./uebersetzung.txt" target="_blank" rel="noopener noreferrer"
+          ><img
+            src="assets/blue bird_angry birds_blue bird_angry birds.png"
+            alt="Angry Bird Icon"
+            class="angrybird-icon" /><img
+            src="./assets/redirect.jpg"
+            alt=""
+            width="30"
+            height="30"
+        /></a>
+      </section>
+
+      <section class="text-section">
+        <p id="kahoot">Kahoot Zeit!</p>
+        <a
+          href="https://create.kahoot.it/share/elektron-allah-anlatyor/43e54e5f-fa93-4ef1-8ed3-52b4c2f8d42a"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img
+            src="assets/red bird_angry birds_angry birds_red bird.png"
+            alt="Angry Bird Icon"
+            class="angrybird-icon" /><img
+            src="./assets/redirect.jpg"
+            alt=""
+            width="30"
+            height="30"
+        /></a>
+      </section>
+
+      <!-- Weitere Texte -->
+      <section class="text-section">
+        <p id="zurbuecher">
+          Sag ein Wort und finde es in deinem Telefon, wähl eine Abschnitt und
+          lies!
+        </p>
+        <a
+          href="https://pirlantaoku.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img
+            src="assets/black bird_black bird_angry birds_angry birds.png"
+            alt="Angry Bird Icon"
+            class="angrybird-icon" /><img
+            src="./assets/redirect.jpg"
+            alt=""
+            width="30"
+            height="30"
+        /></a>
+      </section>
+
+      <!-- Google Suche eingebettet -->
+      <section class="search-section">
+        <p id="suchefaehigkeit">
+          Recherchieren Sie es, wie unser Prophet aleyhissalatu vesselam(Friede
+          sei mit ihm) taegliche Gebeten macht!
+        </p>
+        <img
+          src="assets/72182_red bird_angry birds_red bird_angry birds.png"
+          alt="Angry Bird Icon"
+          class="angrybird-icon"
+        />
+        <script
+          async
+          src="https://cse.google.com/cse.js?cx=e118718434c194f57"
+        ></script>
+        <div class="gcse-search"></div>
+      </section>
+
+      <section class="text-section">
+        <img
+          src="assets/white bird_angry birds_white bird_angry birds.png"
+          alt="Angry Bird Icon"
+          class="angrybird-icon"
+        />
+        <p id="gebetuebung">Namaz Übung! Lies laut vor!</p>
+      </section>
+
+      <section class="text-section">
+        <img
+          src="assets/black bird_black bird_angry birds_angry birds.png"
+          alt="Angry Bird Icon"
+          class="angrybird-icon"
+        />
+        <p id="gebetauswendiglernen">
+          Zeit, ein Gebet auswendig zu lernen! Zusammen und 7 Mal in der Reihe
+          laut vorlesen!
+        </p>
+        <details class="dua-ezber noto-naskh-arabic-dua" dir="ltr">
+          <summary dir="rtl">
+            إِنَّكَ وَلِـيِّي فِي الدُّنْـيَا وَالْأٰخِرَةِ، تَوَفَّنِي
+            مُسْلِمًا وَأَلْحِقْنِي بِالصَّالِحِينَ
+          </summary>
+          Sen dünyada ve ahirette benim yüce dostum ve velimsin; beni müslüman
+          olarak öldür ve salih kulların zümresine ilhak buyur.
+        </details>
+      </section>
+      <section class="text-section">
+        <p id="fazit">
+          Lass uns heute, was wir gefühlen haben, was wir verstanden haben, was
+          wir gedachten haben, was wir gelernt haben als einen kurzen Text im
+          Blog auf Deutsch oder auf Türkisch schreiben!
+        </p>
+        <a
+          href="https://blogbluehendeakademie.onrender.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img
+            src="assets/blue bird_angry birds_blue bird_angry birds.png"
+            alt="Angry Bird Icon"
+            class="angrybird-icon" /><img
+            src="./assets/redirect.jpg"
+            alt=""
+            width="30"
+            height="30"
+        /></a>
+      </section>
+
+      <p class="thanks-text">والحمد لله رب العالمين</p>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
